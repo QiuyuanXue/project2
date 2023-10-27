@@ -12,7 +12,7 @@ body {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -20,7 +20,26 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.h2--1 {
+    font-size: larger;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h2--2 {font-size: larger;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
@@ -31,18 +50,38 @@ h3 {
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: 18.72px;
-
-    
 }
 
-.aa {
-    text-align: center;
+.aa--1 {
+    text-align: left;
     font-size: small;
+    color: rgb(255, 255, 255);
+    font-style: italic;
 }
 
-.bb {
-    text-align: center;
-    font-size: xx-small;
+.aa--2 {
+    text-align:right;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.bb--1 {
+    text-align: left;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.bb--2 {
+    text-align: right;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.dd {
+    font-size: small;
+    font-weight: bolder;
+    background-color: rgb(76, 76, 76);
 }
 
 div.container {
@@ -202,9 +241,63 @@ div.container {
  
 }
 
+.box--1 {
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.box--2 {
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
 
 
-
+.box--3 {
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
   
+.box--4 {
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
 
+.box--5 {
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
 
+.box--6 {
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
