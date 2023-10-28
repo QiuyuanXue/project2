@@ -100,7 +100,7 @@ p {
     font-size: small;
     color: rgb(255, 255, 255);
     font-style: italic;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
 }
 
 .aa--2 {
@@ -108,18 +108,21 @@ p {
     font-size: small;
     color: rgb(255, 255, 255);
     font-style: italic;
+    margin: 10px 10px 0px 10px;
 }
 
 .bb--1 {
     text-align: left;
     font-size: x-small;
     font-weight: lighter;
+    margin: 0px 10px 0px 10px;
 }
 
 .bb--2 {
     text-align: right;
     font-size: x-small;
     font-weight: lighter;
+    margin: 0px 10px 0px 10px;
 }
 
 .dd {
